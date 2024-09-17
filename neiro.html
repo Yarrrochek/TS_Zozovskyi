@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./css/neiro.css">
+<title>Сторінка з НМ</title>
+</head>
+<body>   
+<table class="hr">
+<tr class="menu">
+<td><a href="index.html">Головне меню</a></td>
+<td><a href="menu.html">Основне меню</a></td>
+<td><a href="avto.html">Авторизація</a></td>
+<td><a href="neiro.html">Аналіз рентгенівських снімків</a></td>
+<td><a href="story.html">Історія аналізів</a></td>
+ </tr>
+</table>
+ <h1>Назва аналізу</h1>
+<h2>Додаткова інформація<h2> 
+<hr>Дата<br><input type="date" name="analisdate">
+<hr>Порода<br><input type="text" name="breed">
+<hr>Вік<br><input type="text" name="age">
+<hr>Стать<br><input type="text" name="sex">
+<form method="post" enctype="multipart/form-data">
+  <div>
+    <label for="file">Choose file to upload</label>
+    <input type="file" id="file" name="file" multiple />
+  </div>
+</form>
+  <div class = "send">
+<button type="submit" class="btn btn-lg btn-primary btn-block">Надіслати на аналіз</button>
+</div>
+<div class="instruct">
+
+</div>
+</body>
+</html>

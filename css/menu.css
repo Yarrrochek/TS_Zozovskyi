@@ -1,0 +1,74 @@
+body{
+font-family: 'Montserrat', sans-serif;
+background-color: LightSlateGrey;   
+}
+
+.menu{
+	background-color: DarkSlateGray;
+	text-align: left;
+	height: 100%;
+	position: fixed;
+	
+}
+
+li {
+  list-style-type: none;
+  /* Прибираєм маркування */
+  margin: 10% 10% 10% 0%;
+}
+
+ul {
+  margin-left: 0;
+  /* Відступ ліворуч в браузері IE и Opera */
+  padding-left: 0;
+  /* Відступ ліворуч в браузері Firefox, Safari, Chrome */
+}
+
+.exit, select{
+	min-width: 225px;
+	cursor: pointer;
+}
+
+.mainmenubtn {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+	min-width: 225px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-top: 400px;
+}
+.dropdown-child {
+    display: none;
+    background-color: SlateGray;
+    min-width: 225px;
+}
+
+.pic{
+	border: 5px solid darkblue;
+    width: 200px;
+}
+
+
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.logo{
+	 width: 80px;
+	 margin-left: 30%;
+}
+
+button, select{
+	background-color: Snow;
+}
